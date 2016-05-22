@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <%= @category.name %>
+</h1>
+
+Dernières news de la catégorie <%= @category.name %> :
+<ul>
+	<% @category.reports.order("updated_at DESC").limit(30).each do |report| %>
+		<li>
+			<%= link_to report.title, report %> (<%= report.updated_at.to_formatted_s(:long_ordinal) %>)
+		</li>
+	<% end %>
+</ul>
+
+<% if user_signed_in? and current_user.role == "admin" %>
+	<%= link_to 'Modifier', edit_category_path(@category) %> |
+	<%= link_to 'Retour', categories_path %>
+<% end %>

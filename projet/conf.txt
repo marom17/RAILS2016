@@ -1,0 +1,19 @@
+Database name: news
+rails generate scaffold User firstname:string lastname:string
+rails generate scaffold Report user_id:integer title:string head:string text:string
+rails generate scaffold Source type:string firstname:string lastname:string name:string
+rails generate scaffold Category name:string
+rails generate scaffold Media name:string
+ajouté gems dans gemfile
+bundle install
+rails generate devise:install
+rails generate devise User
+rake db:migrate
+rails generate devise:views
+
+rails generate migration CreateJoinTableReportCategorie report category
+rails generate migration CreateJoinTableReportSource report source
+rake db:migrate
+rails generate migration add_role_to_users role:string
+rake db:migrate
+rails g cancan:ability

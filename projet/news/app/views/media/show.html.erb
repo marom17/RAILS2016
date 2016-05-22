@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<% user_is_admin = user_signed_in? && current_user.role == "admin" %>
+
+<h1>
+  <%= @medium.name %>
+</h1>
+
+<% if user_is_admin %>
+	<%= link_to 'Modifier', edit_medium_path(@medium) %> |
+<% end %>
+
+<%= link_to 'Retour', media_path %>

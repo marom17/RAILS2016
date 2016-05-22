@@ -1,0 +1,56 @@
+
+<h3>
+	Résultats pour: <%= @search_terms %>
+</h3>
+
+<h4>News</h4>
+<ul>
+	<% @search_results["reports"].each do |report| %>
+		<li>
+			<%= link_to report.title, report %> <%= report.updated_at.to_formatted_s(:long_ordinal) %>
+		</li>
+	<% end %>
+</ul>
+
+<h4>Catégories</h4>
+
+<% if @search_results["categories"].length > 0 %>
+	<ul>
+		<% @search_results["categories"].each do |category| %>
+			<li>
+				<%= link_to category.name, category %>
+			</li>
+		<% end %>
+	</ul>
+<% else %>
+	<strong>Aucun résultat</strong>
+<% end %>
+
+<h4>Sources</h4>
+
+<% if @search_results["sources"].length > 0 %>
+	<ul>
+		<% @search_results["sources"].each do |source| %>
+			<li>
+				<%= source.name %> <%= source.firstname %> <%= source.lastname %>
+			</li>
+		<% end %>
+	</ul>
+<% else %>
+	<strong>Aucun résultat</strong>
+<% end %>
+
+<h4>Médias</h4>
+
+<% if @search_results["medias"].length > 0 %>
+	<ul>
+		<% @search_results["medias"].each do |media| %>
+			<li>
+				<%= media.name %>
+			</li>
+		<% end %>
+	</ul>
+<% else %>
+	<strong>Aucun résultat</strong>
+<% end %>
+

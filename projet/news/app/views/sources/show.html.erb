@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @source.type %>
+</p>
+
+<p>
+  <strong>Prénom:</strong>
+  <%= @source.firstname %>
+</p>
+
+<p>
+  <strong>Nom de famille:</strong>
+  <%= @source.lastname %>
+</p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @source.name %>
+</p>
+
+<% if user_signed_in? %>
+	<%= link_to 'Modifier', edit_source_path(@source) %> |
+<% end %>
+
+<%= link_to 'Retour', sources_path %>

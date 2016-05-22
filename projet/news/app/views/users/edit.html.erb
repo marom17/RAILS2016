@@ -1,0 +1,11 @@
+<h1>Editing User</h1>
+
+<%= render 'form' %>
+
+<%= form_tag("/users/#{@user.id}/reset_password", method: "post") do %>
+  <%= submit_tag("Assigner un nouveau mot de passe") %>
+<% end %>
+
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

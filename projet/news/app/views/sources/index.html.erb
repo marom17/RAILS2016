@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Sources</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Prénom</th>
+      <th>Nom</th>
+      <th>Nom</th>
+	   <% if user_signed_in? %>
+		<th colspan="3">Actions</th>
+	  <% else %>
+		<th colspan="1">Actions</th>
+	  <% end %>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sources.each do |source| %>
+      <tr scope="row">
+        <td><%= source.type %></td>
+        <td><%= source.firstname %></td>
+        <td><%= source.lastname %></td>
+        <td><%= source.name %></td>
+		
+		<td><%= link_to 'Afficher', source %></td>
+		
+		<% if user_signed_in? %>
+			<td><%= link_to 'Modifier', edit_source_path(source) %></td>
+			<td><%= link_to 'Supprimer', source, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+		 <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<% if user_signed_in? %>
+	<%= link_to 'Nouvelle source', new_source_path %>
+<% end %>

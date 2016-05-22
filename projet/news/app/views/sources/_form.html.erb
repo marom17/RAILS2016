@@ -1,0 +1,33 @@
+<%= form_for(@source, remote: true) do |f| %>
+  <% if @source.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@source.errors.count, "error") %> prohibited this source from being saved:</h2>
+
+      <ul>
+      <% @source.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    Type:<br>
+    <%= f.text_field :type %>
+  </div>
+  <div class="field">
+   Prénom:<br>
+    <%= f.text_field :firstname %>
+  </div>
+  <div class="field">
+    Nom de famille:<br>
+    <%= f.text_field :lastname %>
+  </div>
+  <div class="field">
+    Nom:<br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

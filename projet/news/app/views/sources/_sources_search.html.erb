@@ -1,0 +1,11 @@
+Sources found for: <%= @search_terms %>
+<ul>
+<% @search_results.each do |result| %>
+	<li>
+		<input type="button" class="btn btn-default" value="Ajouter" onclick="add_source_to_report(this, <%= result.id %>, '<%= result.firstname %> <%= result.lastname %>');"/>
+		 <%= result.firstname %> <%= result.lastname %>
+	</li>
+<% end %>
+</ul>
+
+<%= render 'form' %>

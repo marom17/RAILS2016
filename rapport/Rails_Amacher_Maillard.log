@@ -1,0 +1,1239 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  10 MAY 2016 13:07
+entering extended mode
+**C:/Users/JJ/Documents/Cours/Rails/projet/rapport/Rails_Amacher_Maillard.tex
+(C:/Users/JJ/Documents/Cours/Rails/projet/rapport/Rails_Amacher_Maillard.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+")) ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/01/08 3.9n The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-french\frenchb.
+ldf"
+Language: frenchb 2016/01/01 v3.1k French support from the babel system
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/01/08 3.9n Babel common definitions
+\babel@savecnt=\count90
+\U@D=\dimen111
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip43
+\FBthinskip=\skip44
+\FB@interchartokenstateORI=\count91
+Package babel Info: Making : an active character on input line 372.
+Package babel Info: Making ; an active character on input line 373.
+Package babel Info: Making ! an active character on input line 374.
+Package babel Info: Making ? an active character on input line 375.
+\FBguillskip=\skip45
+\FBguill@level=\count92
+\FB@everypar=\toks18
+\FB@Mht=\dimen112
+\std@mcc=\count93
+\dec@mcc=\count94
+\listindentFB=\skip46
+\labelwidthFB=\skip47
+\leftmarginFB=\skip48
+\parindentFFN=\dimen113
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+"
+\lst@mode=\count95
+\lst@gtempboxa=\box26
+\lst@token=\toks19
+\lst@length=\count96
+\lst@currlwidth=\dimen114
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count99
+\lst@lineno=\count100
+\lst@maxwidth=\dimen117
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
+\lst@framebox=\box27
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def
+"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.
+sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.st
+y"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count104
+\c@@ppsavesec=\count105
+\c@@ppsaveapp=\count106
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty
+"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen130
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+"
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count111
+)
+\csq@reset=\count112
+\csq@gtype=\count113
+\csq@glevel=\count114
+\csq@qlevel=\count115
+\csq@maxlvl=\count116
+\csq@tshold=\count117
+\csq@ltx@everypar=\toks20
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+"
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+"
+File: csquotes.cfg 
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.s
+ty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.te
+x"
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty
+"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimclip.st
+y"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.c
+fg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collectbox
+.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box28
+)
+\tc@llx=\dimen133
+\tc@lly=\dimen134
+\tc@urx=\dimen135
+\tc@ury=\dimen136
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.d
+ef"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen137
+\adjbox@Height=\dimen138
+\adjbox@Depth=\dimen139
+\adjbox@Totalheight=\dimen140
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.s
+ty"
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count119
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count120
+\@vwid@loff=\dimen141
+\@vwid@roff=\dimen142
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.s
+ty"
+Package: tcolorbox 2016/02/29 version 3.90 text color boxes
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.st
+y"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.
+sty"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfut
+il-common.tex"
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfut
+il-common-lists.tex"))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfut
+il-latex.def"
+\pgfutil@abb=\box30
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrc
+s.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcor
+e.sty"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsy
+s.sty"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+sys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfke
+ys.code.tex"
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfke
+ysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count121
+\c@pgf@countb=\count122
+\c@pgf@countc=\count123
+\c@pgf@countd=\count124
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+sys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+sys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+syssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count125
+\pgfsyssoftpath@bigbuffer@items=\count126
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf
+sysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+ore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.co
+de.tex"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcal
+c.code.tex"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathuti
+l.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathpar
+ser.code.tex"
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count127
+\pgfmath@box=\box31
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.code.tex"
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.basic.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.trigonometric.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.random.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.comparison.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.base.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.round.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.misc.code.tex")
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfun
+ctions.integerarithmetics.code.tex")))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathflo
+at.code.tex"
+\c@pgfmathroundto@lastzeros=\count128
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count129
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen172
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen176
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count130
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box35
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+oretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfc
+orepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodu
+leshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box36
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodu
+leplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgf
+comp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgf
+comp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read2
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces
+.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks35
+)
+\tcb@titlebox=\box37
+\tcb@upperbox=\box38
+\tcb@lowerbox=\box39
+\tcb@phantombox=\box40
+\c@tcbbreakpart=\count131
+\c@tcblayer=\count132
+\tcolorbox@number=\count133
+\tcb@temp=\box41
+\tcb@temp=\box42
+\tcb@temp=\box43
+\tcb@temp=\box44
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen180
+\extrarowheight=\dimen181
+\NC@list=\toks36
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+\TX@col@width=\dimen182
+\TX@old@table=\dimen183
+\TX@old@col=\dimen184
+\TX@target=\dimen185
+\TX@delta=\dimen186
+\TX@cols=\count134
+\TX@ftn=\toks37
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty
+"
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box45
+\fn@width=\dimen187
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.st
+y"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty
+"
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+"
+Package: biblatex 2015/12/22 v3.2 programmable bibliographies (PK/JW/AB)
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex1.st
+y"
+Package: biblatex1 2015/12/22 v3.2 programmable bibliographies (bibtex) (PK/JW/
+AB)
+ ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count135
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count136
+\c@listtotal=\count137
+\c@listcount=\count138
+\c@liststart=\count139
+\c@liststop=\count140
+\c@citecount=\count141
+\c@citetotal=\count142
+\c@multicitecount=\count143
+\c@multicitetotal=\count144
+\c@instcount=\count145
+\c@maxnames=\count146
+\c@minnames=\count147
+\c@maxitems=\count148
+\c@minitems=\count149
+\c@citecounter=\count150
+\c@savedcitecounter=\count151
+\c@uniquelist=\count152
+\c@uniquename=\count153
+\c@refsection=\count154
+\c@refsegment=\count155
+\c@maxextrayear=\count156
+\c@maxextraalpha=\count157
+\c@abbrvpenalty=\count158
+\c@highnamepenalty=\count159
+\c@lownamepenalty=\count160
+\c@maxparens=\count161
+\c@parenlevel=\count162
+\blx@tempcnta=\count163
+\blx@tempcntb=\count164
+\blx@tempcntc=\count165
+\blx@maxsection=\count166
+\blx@maxsegment=\count167
+\blx@notetype=\count168
+\blx@parenlevel@text=\count169
+\blx@parenlevel@foot=\count170
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\shorthandwidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@auxin=\read3
+\blx@auxout=\write6
+\c@mincomprange=\count171
+\c@maxcomprange=\count172
+\c@mincompwidth=\count173
+\c@labelname=\count174
+\c@savedlabelname=\count175
+\c@author=\count176
+\c@savedauthor=\count177
+\c@shortauthor=\count178
+\c@savedshortauthor=\count179
+\c@editor=\count180
+\c@savededitor=\count181
+\c@editora=\count182
+\c@savededitora=\count183
+\c@editorb=\count184
+\c@savededitorb=\count185
+\c@editorc=\count186
+\c@savededitorc=\count187
+\c@shorteditor=\count188
+\c@savedshorteditor=\count189
+\c@bookauthor=\count190
+\c@savedbookauthor=\count191
+\c@translator=\count192
+\c@savedtranslator=\count193
+\c@annotator=\count194
+\c@savedannotator=\count195
+\c@commentator=\count196
+\c@savedcommentator=\count197
+\c@introduction=\count198
+\c@savedintroduction=\count199
+\c@foreword=\count266
+\c@savedforeword=\count267
+\c@afterword=\count268
+\c@savedafterword=\count269
+\c@holder=\count270
+\c@savedholder=\count271
+\c@namea=\count272
+\c@savednamea=\count273
+\c@nameb=\count274
+\c@savednameb=\count275
+\c@namec=\count276
+\c@savednamec=\count277
+\c@institution=\count278
+\c@savedinstitution=\count279
+\c@language=\count280
+\c@savedlanguage=\count281
+\c@location=\count282
+\c@savedlocation=\count283
+\c@organization=\count284
+\c@savedorganization=\count285
+\c@origlocation=\count286
+\c@savedoriglocation=\count287
+\c@origpublisher=\count288
+\c@savedorigpublisher=\count289
+\c@pageref=\count290
+\c@savedpageref=\count291
+\c@publisher=\count292
+\c@savedpublisher=\count293
+\c@lista=\count294
+\c@savedlista=\count295
+\c@listb=\count296
+\c@savedlistb=\count297
+\c@listc=\count298
+\c@savedlistc=\count299
+\c@listd=\count300
+\c@savedlistd=\count301
+\c@liste=\count302
+\c@savedliste=\count303
+\c@listf=\count304
+\c@savedlistf=\count305
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.d
+ef"
+File: blx-compat.def 2015/12/22 v3.2 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+"
+File: biblatex.def 
+\c@textcitecount=\count306
+\c@textcitetotal=\count307
+\c@textcitemaxnames=\count308
+\c@biburlnumpenalty=\count309
+\c@biburlucpenalty=\count310
+\c@biburllcpenalty=\count311
+\c@smartand=\count312
+)
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\verbose.
+bbx"
+File: verbose.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\authorti
+tle.bbx"
+File: authortitle.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard
+.bbx"
+File: standard.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count313
+\c@bbx:relatedtotal=\count314
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\verbose.
+cbx"
+File: verbose.cbx 2015/12/22 v3.2 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+"
+File: biblatex.cfg 
+)))
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 128.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 134.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 137.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty
+"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks38
+\minrowclearance=\skip69
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\french.l
+bx"
+File: french.lbx 2015/12/22 v3.2 biblatex localization (PK/JW/AB)
+) (Rails_Amacher_Maillard.aux)
+\openout1 = `Rails_Amacher_Maillard.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=42.67912pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \degres on input line 150.
+LaTeX Info: Redefining \dots on input line 150.
+LaTeX Info: Redefining \up on input line 150.
+
+Package frenchb.ldf Warning: OT1 encoding should not be used for French.
+(frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(frenchb.ldf)                of your document, on input line 150.
+
+\c@lstlisting=\count315
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count316
+\scratchdimen=\dimen188
+\scratchbox=\box46
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen189
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks40
+) ABD: EveryShipout initializing macros
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout6 = `Rails_Amacher_Maillard-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Rails_Amacher_Maillard.bbl' found.
+(Rails_Amacher_Maillard.bbl)
+Package biblatex Info: Reference section=0 on input line 150.
+Package biblatex Info: Reference segment=0 on input line 150.
+ <img/heiglogo.jpg, id=4, 501.875pt x 156.585pt>
+File: img/heiglogo.jpg Graphic file (type jpg)
+
+<use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 169.
+(pdftex.def)             Requested size: 170.71652pt x 53.26447pt.
+ [1
+
+{C:/Users/JJ/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/heiglogo
+.jpg>] (Rails_Amacher_Maillard.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+)
+\tf@toc=\write7
+\openout7 = `Rails_Amacher_Maillard.toc'.
+
+ [2]
+<img/use_cases.png, id=17, 597.6729pt x 447.1104pt>
+File: img/use_cases.png Graphic file (type png)
+ <use img/use_cases.png>
+Package pdftex.def Info: img/use_cases.png used on input line 192.
+(pdftex.def)             Requested size: 426.79135pt x 319.27899pt.
+File: img/heiglogo.jpg Graphic file (type jpg)
+
+<use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 215.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
+ [3 <./img/use_cases.png>]
+File: img/heiglogo.jpg Graphic file (type jpg)
+ <use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 256.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
+
+[4] <img/mcd.png, id=24, 638.385pt x 494.5677pt>
+File: img/mcd.png Graphic file (type png)
+ <use img/mcd.png>
+Package pdftex.def Info: img/mcd.png used on input line 263.
+(pdftex.def)             Requested size: 426.79135pt x 330.64171pt.
+File: img/heiglogo.jpg Graphic file (type jpg)
+
+<use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 313.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
+ [5 <./img/mcd.png>]
+
+LaTeX Warning: Empty bibliography on input line 338.
+
+File: img/heiglogo.jpg Graphic file (type jpg)
+<use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 349.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
+ [6] (Rails_Amacher_Maillard.aux)
+Package logreq Info: Writing requests to 'Rails_Amacher_Maillard.run.xml'.
+\openout1 = `Rails_Amacher_Maillard.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19808 strings out of 493634
+ 366176 string characters out of 3136464
+ 681661 words of memory out of 3000000
+ 22852 multiletter control sequences out of 15000+200000
+ 6058 words of font info for 22 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 54i,15n,73p,1196b,1740s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/JJ/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on Rails_Amacher_Maillard.pdf (6 pages, 618495 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+
