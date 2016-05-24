@@ -6,6 +6,14 @@
   <%= @medium.name %>
 </h1>
 
+
+
+<strong>Utilisateurs:</strong><br />
+<% @medium.users.each do |user| %>
+	<%= user.firstname %> <%= user.lastname %><br />
+<% end %>
+<br />
+
 <% if user_is_admin %>
 	<%= link_to 'Modifier', edit_medium_path(@medium) %> |
 <% end %>

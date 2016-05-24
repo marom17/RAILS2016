@@ -68,7 +68,7 @@ ActiveRecord::Schema.define(version: 20160419125002) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip",     limit: 255
     t.string   "last_sign_in_ip",        limit: 255
-    t.integer  "media_id",               limit: 4
+    t.integer  "medium_id",              limit: 4
     t.string   "role",                   limit: 255
   end
 

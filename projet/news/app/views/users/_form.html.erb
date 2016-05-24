@@ -25,7 +25,11 @@
   </div>
   <div class="field">
     Média:<br>
-    <%= f.collection_select :media_id, Medium.all, :id, :name %>
+    <%= f.collection_select :medium_id, Medium.all, :id, :name %>
+  </div>
+  <div class="field">
+    Rôle:<br>
+    <%= f.collection_select :role, ["admin", "author"], :to_s, :to_s, include_blank: false %>
   </div>
   <div class="actions">
     <%= f.submit %>

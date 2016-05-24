@@ -39,7 +39,7 @@ class UsersController < ApplicationController
   def create
 	authorize! :manage, @user
 	
-	user_params[:role] = "author"
+	# user_params[:role] = "author"
     @user = User.new(user_params)
 
     respond_to do |format|
@@ -89,6 +89,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:firstname, :lastname, :email, :media_id)
+      params.require(:user).permit(:firstname, :lastname, :email, :medium_id, :role)
     end
 end

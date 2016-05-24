@@ -8,5 +8,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 		 
    belongs_to :media
-   has_many :reports
+   has_many :reports, :dependent => :nullify
 end

@@ -5,7 +5,10 @@
 </h2>
 
 <div>
-	Rédigé par: <%= @report.user.firstname %> <%= @report.user.lastname %><br />
+	<% if @report.user != nil %>
+		Rédigé par: <%= @report.user.firstname %> <%= @report.user.lastname %><br />
+	<% end %>
+
 	Dernière mise à jour: <%= @report.updated_at.to_formatted_s(:long_ordinal) %><br />
 	Catégories:
 	<% @report.categories.each do |category| %>
