@@ -32,7 +32,12 @@
 	<ul>
 		<% @search_results["sources"].each do |source| %>
 			<li>
-				<%= source.name %> <%= source.firstname %> <%= source.lastname %>
+				<% if source.tyype == "PhysicalSource" %>
+					<%= link_to source.firstname + " " + source.lastname, source %>
+				<% else %>
+					<%= link_to source.name, source %>
+				<% end %>
+				
 			</li>
 		<% end %>
 	</ul>
@@ -46,7 +51,7 @@
 	<ul>
 		<% @search_results["medias"].each do |media| %>
 			<li>
-				<%= media.name %>
+				<%= link_to media.name, media %>
 			</li>
 		<% end %>
 	</ul>

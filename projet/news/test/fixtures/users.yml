@@ -1,9 +1,29 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+ 
+# pass: tn^VQBaw
 one:
-  firstname: MyString
-  lastname: MyString
-
+  firstname: Jean
+  lastname: Paul
+  email: jean@paul.com
+  encrypted_password: $2a$10$BhCA60p.TXSTN8SMTcWM2OR2RhbZkJ/nTgZlgBETKQB2lMHo8AQQG
+  medium_id: 1
+  role: admin
+  
+# pass: 48n6dqBe
 two:
-  firstname: MyString
-  lastname: MyString
+  firstname: Albert
+  lastname: Haller
+  email: albert@haller.com
+  encrypted_password: $2a$10$ebRmQ37KbWwkHmJr4Xpr/Ok7gTm.AkXFnpkg2LVloP4m4J5G2FD0i
+  medium_id: 1
+  role: author
+  
+# pass: \gJWOp74
+three:
+  firstname: Jaime
+  lastname: HEIG
+  email: jaime@heig.com
+  encrypted_password: $2a$10$hmzrM6fvBrP1irK6lNuAV.hXWXLGyMWC9LgJvQTmLMh5Xb31Byyku
+  medium_id: 2
+  role: author

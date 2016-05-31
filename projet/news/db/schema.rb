@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 20160419125002) do
   end
 
   create_table "sources", force: :cascade do |t|
-    t.string   "type",       limit: 255
+    t.string   "tyype",       limit: 255
     t.string   "firstname",  limit: 255
     t.string   "lastname",   limit: 255
     t.string   "name",       limit: 255

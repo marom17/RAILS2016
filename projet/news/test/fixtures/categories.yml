@@ -1,7 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  name: HEIG
 
 two:
-  name: MyString
+  name: Politique
+
+three:
+  name: Sport
+
+four:
+  name: Economie
+
+five:
+  name: Education

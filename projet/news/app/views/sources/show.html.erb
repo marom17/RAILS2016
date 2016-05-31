@@ -2,26 +2,28 @@
 
 <p>
   <strong>Type:</strong>
-  <%= @source.type %>
+  <%= (@source.tyype == "PhysicalSource" ? "Personne physique" : "Entité") %>
 </p>
 
-<p>
-  <strong>Prénom:</strong>
-  <%= @source.firstname %>
-</p>
+<% if @source.tyype == "PhysicalSource" %>
+	<p>
+	  <strong>Prénom:</strong>
+	  <%= @source.firstname %>
+	</p>
 
-<p>
-  <strong>Nom de famille:</strong>
-  <%= @source.lastname %>
-</p>
-
-<p>
-  <strong>Nom:</strong>
-  <%= @source.name %>
-</p>
+	<p>
+	  <strong>Nom de famille:</strong>
+	  <%= @source.lastname %>
+	</p>
+<% else %>
+	<p>
+	  <strong>Nom:</strong>
+	  <%= @source.name %>
+	</p>
+<% end %>
 
 <% if user_signed_in? %>
-	<%= link_to 'Modifier', edit_source_path(@source) %> |
+	<%= link_to 'Modifier', "/sources/#{@source.id}/edit" %> |
 <% end %>
 
 <%= link_to 'Retour', sources_path %>

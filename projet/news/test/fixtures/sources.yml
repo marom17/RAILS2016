@@ -1,13 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  type: 
-  firstname: MyString
-  lastname: MyString
-  name: MyString
+  tyype: PhysicalSource
+  firstname: Alexandra
+  lastname: Geux
+  name: 
 
 two:
-  type: 
-  firstname: MyString
-  lastname: MyString
-  name: MyString
+  tyype: LogicalSource
+  firstname: 
+  lastname: 
+  name: Grands Levages SàRL
+  
+three:
+  tyype: PhysicalSource
+  firstname: Alexandre
+  lastname: Swonikki
+  name: 

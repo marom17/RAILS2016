@@ -1,13 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: 1
-  title: MyString
-  head: MyString
-  text: MyString
+  user: two
+  title: Le récit d'un jour sans pain
+  head: Deux étudiants nous font le récit de leur formation
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.
+  categories: one, five
+  sources: one, two
 
 two:
-  user_id: 1
-  title: MyString
-  head: MyString
-  text: MyString
+  user: three
+  title: Une journée ensoleillée à Yverdon
+  head: Du jamais vu depuis plus de 6 mois
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.
+  categories: two
+  sources: one, three

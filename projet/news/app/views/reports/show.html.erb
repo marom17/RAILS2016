@@ -10,14 +10,24 @@
 	<% end %>
 
 	Dernière mise à jour: <%= @report.updated_at.to_formatted_s(:long_ordinal) %><br />
-	Catégories:
+	Catégorie(s):
+	<%  i = 0 %>
 	<% @report.categories.each do |category| %>
 		<%= category.name %>
+		<% if i + 1 < @report.categories.size %>
+			<%= "," %>
+		<% end %>
+		<% i += 1 %>
 	<% end %>
 	<br />
-	Sources:
+	Source(s):
+	<%  i = 0 %>
 	<% @report.sources.each do |source| %>
-		 <%= source.firstname %> <%= source.lastname %><br />
+		<%= source.firstname %> <%= source.lastname %>
+		<% if i + 1 < @report.sources.size %>
+			<%= "," %>
+		<% end %>
+		<% i += 1 %>
 	<% end %>
 </div>
 

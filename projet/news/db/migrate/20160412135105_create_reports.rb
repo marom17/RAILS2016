@@ -3,8 +3,8 @@ class CreateReports < ActiveRecord::Migration
     create_table :reports do |t|
       t.integer :user_id
       t.string :title
-      t.string :head
-      t.string :text
+      t.text :head
+      t.text :text
 
       t.timestamps null: false
     end

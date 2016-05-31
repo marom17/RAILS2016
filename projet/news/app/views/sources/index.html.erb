@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Type</th>
+	  
       <th>Prénom</th>
       <th>Nom</th>
       <th>Nom</th>
@@ -20,10 +21,17 @@
   <tbody>
     <% @sources.each do |source| %>
       <tr scope="row">
-        <td><%= source.type %></td>
-        <td><%= source.firstname %></td>
-        <td><%= source.lastname %></td>
-        <td><%= source.name %></td>
+        <td><%= (source.tyype == "PhysicalSource" ? "Personne Physique" : "Entité") %></td>
+		
+		<% if source.tyype == "PhysicalSource" %>
+			<td><%= source.firstname %></td>
+			<td><%= source.lastname %></td>
+			<td></td>
+		<% else %>
+			<td></td>
+			<td></td>
+			<td><%= source.name %></td>
+		<% end %>
 		
 		<td><%= link_to 'Afficher', source %></td>
 		

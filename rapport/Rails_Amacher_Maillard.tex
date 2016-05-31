@@ -173,7 +173,7 @@
 \tableofcontents
 \newpage
 
-\section{Description}
+\section{Introduction}
 
 Ce projet a pour but de réaliser une plate-forme permettant d'une part la rédaction de news et d'autre part leur consultation. Les rédacteurs écrivent et modifient des news, en y liant catégories (par ex: politique) et des sources (par ex: Paul Dupont). Chaque rédacteur travaille pour un média (par ex: France Info)
 
@@ -334,6 +334,94 @@ Chaque rapport a une date de création. Nous utilisons le champ created at de Ra
 \section{Fonctionnalités Ajax}
 
 La recherche des news se fait via Ajax. La recherche se fait par news, catégorie et source. Le contenu, titre et chapeau de la news sont considérés lors de la recherche.
+
+\section{Manuel utilisateur}
+
+Disponible en annexe.
+
+\section{Implémentation Ajax}
+
+Notre fonctionnalité de recherche a été implémentée en utilisant les mécanismes de requête HTTP accessibles depuis Javascript (Ajax)
+
+Le but est le suivant: lorsqu'un terme de recherche est entré, une recherche est effectuée dans le but de trouver les news, catégories, sources et médias correspondants.
+A cet effet, la recherche s'opère:
+\begin{itemize}
+\item Le titre des news
+\item Le chapeau des news
+\item Le contenu des news
+\item Le nom des catégories
+\item Le nom des sources (s'il s'agit d'une source de type "entité morale") ainsi que le prénom/nom s'il s'agit d'une source de type "personne physique"
+\item Le nom des sources
+\item Le nom des médias
+\end{itemize}
+
+Ces résultats sont ensuite présentés à l'utilisateur, les entrées sont cliquables:
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=10cm]{recherche_ajax}
+\end{figure}
+
+Le champ texte d'entrée présenté à l'utilisateur est surveillé et toute modification y relative entraîne l'appel de la fonction suivante:
+
+\begin{lstlisting}
+$(function() {
+	$('#search_terms').on('input', function() {
+		var search_terms = $(this).val();
+		
+		if (search_terms == "") {
+			$('#search_div').html("");
+		} else {
+			$.get("/reports/search", {"search_terms": search_terms }, function(data) {
+				$('#search_div').html(data);
+			});
+		}
+	});
+});
+\end{lstlisting}
+
+Le contrôleur "report" (méthode "search") se charge d'effectuer cette recherche:
+
+\begin{lstlisting}
+def search
+	@search_terms = params[:search_terms]
+	@search_results = Hash.new
+	@search_results["reports"] = Report.where("title LIKE ? OR head LIKE ? OR text LIKE ?", "%#{@search_terms}%", "%#{@search_terms}%", "%#{@search_terms}%").order("updated_at DESC").limit(20)
+	@search_results["categories"] = Category.where("name LIKE ?", "%#{@search_terms}%")
+	@search_results["sources"] = Source.where("firstname LIKE ? OR lastname LIKE ? OR name LIKE ?", "%#{@search_terms}%", "%#{@search_terms}%", "%#{@search_terms}%")
+	@search_results["medias"] = Medium.where("name LIKE ?", "%#{@search_terms}%")
+	
+	render :partial => "reports_search"
+end
+\end{lstlisting}
+
+\section{Déploiement}
+
+La procédure suivante permet de déployer l'applicatif et de le tester. Nous utilisons les fixtures pour permettre de charger directement la base de données avec des données de test.
+
+\begin{itemize}
+\item Créer la base de données nommée "news"
+\item Exécuter: bundle install
+\item Exécuter: rake db:migrate
+\item Exécuter: rake db:fixtures:load
+\item Exécuter: rails s
+\end{itemize}
+
+Les comptes créés sont les suivants (email password):
+
+\begin{itemize}
+\item admin: jean@paul.com tn\^VQBaw
+\item auteur: albert@haller.com 48n6dqBe
+\item auteur: jaime@heig.com \\gJWOp74
+\end{itemize}
+
+\section{Librairies utilisées}
+
+Hors mis librairie Bootstrap, nous n'avons pas utilisé de librairie spécifique.
+
+\section{Conclusion}
+
+Ce projet a été une bonne prise en main de RoR. Nous avons pu consulter ses forces mais également ses faiblesses. Ruby est agréable à utiliser car il permet la génération rapide de squelettes, mais cet avantage a ses limites et un inconvénient majeur est de devoir revoir chaque interface pour y ajouter les relations manquantes. Au niveau organisation, il n'a pas toujours été facile de trouver le temps de travailler sur le projet, compte tenu de notre charge de travail tout au long de ce semestre. En bref, ce projet a été fort utile pour appuyer et mettre en oeuvre ce que nous avons appris durant le cours.
 
 \printbibliography
 

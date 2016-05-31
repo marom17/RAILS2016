@@ -34,6 +34,12 @@ class SourcesController < ApplicationController
   # POST /sources
   # POST /sources.json
   def create
+	#if source_params[:type] == "PhysicalSource"
+	#	@source = PhysicalSource.new(source_params)
+	#else
+	#	@source = LogicalSource.new(source_params)
+	#end
+  
     @source = Source.new(source_params)
 	authorize! :manage, @source
 
@@ -84,6 +90,6 @@ class SourcesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def source_params
-      params.require(:source).permit(:type, :firstname, :lastname, :name)
+      params.require(:source).permit(:tyype, :firstname, :lastname, :name)
     end
 end

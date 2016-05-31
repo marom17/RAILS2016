@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Description}{3}
+\contentsline {section}{\numberline {1}Introduction}{3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Contraintes}{3}
 \defcounter {refsection}{0}\relax 
@@ -44,3 +44,13 @@
 \contentsline {section}{\numberline {5}It\IeC {\'e}rations}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Fonctionnalit\IeC {\'e}s Ajax}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Manuel utilisateur}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Impl\IeC {\'e}mentation Ajax}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}D\IeC {\'e}ploiement}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Librairies utilis\IeC {\'e}es}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Conclusion}{7}

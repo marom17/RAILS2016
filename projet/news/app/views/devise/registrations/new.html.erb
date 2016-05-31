@@ -4,23 +4,8 @@
   <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :firstname %><br />
-    <%= f.text_field :firstname, autofocus: true %>
-  </div>
-  
-  <div class="field">
-    <%= f.label :lastname %><br />
-    <%= f.text_field :lastname, autofocus: true %>
-  </div>
-  
-  <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true %>
-  </div>
-  
-  <div class="field">
-    <%= f.label :media %><br />
-    <%= f.select "media_id", options_from_collection_for_select(Medium.all, "id", "name") %>
   </div>
 
   <div class="field">

@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get "reports/search" => "reports#search"
   get "sources/search" => "sources#search"
   post "users/:id/reset_password" => "users#reset_password"
-  
+
   resources :media
   resources :categories
   resources :sources
