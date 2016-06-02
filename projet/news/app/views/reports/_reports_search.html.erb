@@ -18,7 +18,7 @@
 	<ul>
 		<% @search_results["categories"].each do |category| %>
 			<li>
-				<%= link_to category.name, category %>
+				<%= link_to category.name, category, class: "label label-default inlabel inlabel" %>
 			</li>
 		<% end %>
 	</ul>
@@ -33,9 +33,9 @@
 		<% @search_results["sources"].each do |source| %>
 			<li>
 				<% if source.tyype == "PhysicalSource" %>
-					<%= link_to source.firstname + " " + source.lastname, source %>
+					<%= link_to source.firstname + " " + source.lastname, source, class: "label label-default inlabel" %>
 				<% else %>
-					<%= link_to source.name, source %>
+					<%= link_to source.name, source, class: "label label-default inlabel" %>
 				<% end %>
 				
 			</li>

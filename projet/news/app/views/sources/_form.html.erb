@@ -3,15 +3,18 @@
 		var index = forceType != null ? forceType : document.getElementById('type').selectedIndex;
 
 		document.getElementById("firstname").style.display = (index == 0 ? 'block' : 'none');
+		document.getElementById("source_firstname").style.display = (index == 0 ? 'block' : 'none');
 		document.getElementById("lastname").style.display = (index == 0 ? 'block' : 'none');
+		document.getElementById("source_lastname").style.display = (index == 0 ? 'block' : 'none');
 		document.getElementById("name").style.display = (index == 1 ? 'block' : 'none');
+		document.getElementById("source_name").style.display = (index == 1 ? 'block' : 'none');
 	}
 </script>
 
 <%= form_for(@source, remote: true) do |f| %>
   <% if @source.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@source.errors.count, "error") %> prohibited this source from being saved:</h2>
+      <h2><%= pluralize(@source.errors.count, "error") %> erreurs:</h2>
 
       <ul>
       <% @source.errors.full_messages.each do |message| %>
@@ -21,32 +24,34 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     Type:<br>
-	<select name="source[tyype]" onchange="sourceTypeChanged(null)" id="type">
+	<select name="source[tyype]" onchange="sourceTypeChanged(null)" id="type" class="form-control">
 		<option value="PhysicalSource">Personne physique</option>
 		<option value="LogicalSource">Autre entité</option>
 	</select>
   </div>
-  <div class="field" id="firstname">
+  <div class="form-group" id="firstname">
    Prénom:<br>
-    <%= f.text_field :firstname %>
+    <%= f.text_field :firstname, class: "form-control" %>
   </div>
-  <div class="field" id="lastname">
+  <div class="form-group" id="lastname">
     Nom de famille:<br>
-    <%= f.text_field :lastname %>
+    <%= f.text_field :lastname, class: "form-control" %>
   </div>
-  <div class="field" id="name">
+  <div class="form-group" id="name">
     Nom:<br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, class: "form-control" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>
 
-<% if @source && !@source.new_record? %>
 <script type="text/javascript">
+<% if @source && !@source.new_record? %>
 	sourceTypeChanged(<%= @source.tyype == "PhysicalSource" ? 0 : 1 %>);
-</script>
+<% else %>
+	sourceTypeChanged();
 <% end %>
+</script>

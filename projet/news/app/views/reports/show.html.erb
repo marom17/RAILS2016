@@ -11,31 +11,51 @@
 
 	Dernière mise à jour: <%= @report.updated_at.to_formatted_s(:long_ordinal) %><br />
 	Catégorie(s):
-	<%  i = 0 %>
-	<% @report.categories.each do |category| %>
-		<%= category.name %>
-		<% if i + 1 < @report.categories.size %>
-			<%= "," %>
+	<% if @report.sources.size < 1 %>
+		Aucune catégorie
+	<% else %>
+		<%  i = 0 %>
+		<% @report.categories.each do |category| %>
+			<a href="/categories/<%= category.id %>">
+			<span class="label label-default">
+			<%= category.name %>
+			</span>
+			</a>
+			<% if i + 1 < @report.categories.size %>
+				&nbsp;
+			<% end %>
+			<% i += 1 %>
 		<% end %>
-		<% i += 1 %>
 	<% end %>
 	<br />
 	Source(s):
-	<%  i = 0 %>
-	<% @report.sources.each do |source| %>
-		<%= source.firstname %> <%= source.lastname %>
-		<% if i + 1 < @report.sources.size %>
-			<%= "," %>
+	<% if @report.sources.size < 1 %>
+		Aucune source
+	<% else %>
+		<%  i = 0 %>
+		<% @report.sources.each do |source| %>
+			<a href="/sources/<%= source.id %>">
+			<span class="label label-default">
+			<% if source.tyype == "PhysicalSource" %>
+				<%= source.firstname %> <%= source.lastname %>
+			<% else %>
+				<%= source.name %>
+			<% end %>
+			</span>
+			</a>
+			<% if i + 1 < @report.sources.size %>
+				&nbsp;
+			<% end %>
+			<% i += 1 %>
 		<% end %>
-		<% i += 1 %>
 	<% end %>
 </div>
 
-<p>
-	<strong>
-	  <%= @report.head %>
-	</strong>
-</p>
+<div style="margin-top: 2em;">
+	<h4>
+		<%= @report.head %>
+	</h4>
+</div>
 
 <p>
 	<div>
