@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  4 JUN 2016 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  4 JUN 2016 14:16
 entering extended mode
 **C:/Users/JJ/Documents/Cours/Rails/repo/RAILS2016/rapport/Rails_Amacher_Mailla
 rd.tex
@@ -1249,26 +1249,32 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 File: img/heiglogo.jpg Graphic file (type jpg)
 
 <use img/heiglogo.jpg>
-Package pdftex.def Info: img/heiglogo.jpg used on input line 435.
+Package pdftex.def Info: img/heiglogo.jpg used on input line 418.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
- [7]
+ [7] <img/mvc.png, id=41, 648.2619pt x 350.7504pt>
+File: img/mvc.png Graphic file (type png)
 
-LaTeX Warning: Empty bibliography on input line 436.
+<use img/mvc.png>
+Package pdftex.def Info: img/mvc.png used on input line 429.
+(pdftex.def)             Requested size: 398.33858pt x 215.52557pt.
+
+
+LaTeX Warning: Empty bibliography on input line 450.
 
 File: img/heiglogo.jpg Graphic file (type jpg)
 <use img/heiglogo.jpg>
-Package pdftex.def Info: img/heiglogo.jpg used on input line 447.
+Package pdftex.def Info: img/heiglogo.jpg used on input line 461.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
- [8] (Rails_Amacher_Maillard.aux)
+ [8 <./img/mvc.png>] (Rails_Amacher_Maillard.aux)
 Package logreq Info: Writing requests to 'Rails_Amacher_Maillard.run.xml'.
 \openout1 = `Rails_Amacher_Maillard.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20146 strings out of 493634
- 369495 string characters out of 3136464
- 759661 words of memory out of 3000000
- 23175 multiletter control sequences out of 15000+200000
+ 20151 strings out of 493634
+ 369565 string characters out of 3136464
+ 757661 words of memory out of 3000000
+ 23179 multiletter control sequences out of 15000+200000
  7138 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  54i,16n,73p,1204b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1284,9 +1290,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
 :/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on Rails_Amacher_Maillard.pdf (8 pages, 691592 bytes).
+Output written on Rails_Amacher_Maillard.pdf (8 pages, 809268 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

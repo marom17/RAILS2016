@@ -51,8 +51,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9}D\IeC {\'e}ploiement}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Librairies utilis\IeC {\'e}es}{7}
+\contentsline {section}{\numberline {10}MVC}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Etat des lieux}{7}
+\contentsline {section}{\numberline {11}Librairies utilis\IeC {\'e}es}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Conclusion}{8}
+\contentsline {section}{\numberline {12}Etat des lieux}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13}Conclusion}{8}
