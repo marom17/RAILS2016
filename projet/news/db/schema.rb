@@ -33,10 +33,10 @@ ActiveRecord::Schema.define(version: 20160419125002) do
   create_table "reports", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
     t.string   "title",      limit: 255
-    t.string   "head",       limit: 255
-    t.string   "text",       limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.text     "head",       limit: 65535
+    t.text     "text",       limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "reports_sources", id: false, force: :cascade do |t|
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 20160419125002) do
   end
 
   create_table "sources", force: :cascade do |t|
-    t.string   "tyype",       limit: 255
+    t.string   "tyype",      limit: 255
     t.string   "firstname",  limit: 255
     t.string   "lastname",   limit: 255
     t.string   "name",       limit: 255

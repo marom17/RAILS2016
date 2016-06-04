@@ -1,13 +1,13 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy, :reset_password]
   before_filter :authenticate_user!
-  
-  
+
+
   def reset_password
 	authorize! :reset_password, @user
-  
+
 	@random_password = ('0'..'z').to_a.shuffle.first(8).join
-	
+
 	@user.reset_password!(@random_password, @random_password)
   end
 
@@ -38,7 +38,7 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
 	authorize! :manage, @user
-	
+
 	# user_params[:role] = "author"
     @user = User.new(user_params)
 
@@ -57,7 +57,7 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1.json
   def update
 	authorize! :manage, @user
-  
+
     respond_to do |format|
       if @user.update(user_params)
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
@@ -73,7 +73,7 @@ class UsersController < ApplicationController
   # DELETE /users/1.json
   def destroy
 	authorize! :manage, @user
-  
+
     @user.destroy
     respond_to do |format|
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
