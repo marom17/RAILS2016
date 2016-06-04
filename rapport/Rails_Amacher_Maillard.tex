@@ -401,23 +401,33 @@ La procédure suivante permet de déployer l'applicatif et de le tester. Nous ut
 
 \begin{itemize}
 \item Créer la base de données nommée "news"
-\item Exécuter: bundle install
-\item Exécuter: rake db:migrate
-\item Exécuter: rake db:fixtures:load
-\item Exécuter: rails s
+\item Exécuter: \begin{verbatim}bundle install\end{verbatim}
+\item Exécuter: \begin{verbatim}rake db:migrate\end{verbatim}
+\item Exécuter: \begin{verbatim}rake db:fixtures:load\end{verbatim}
+\item Exécuter: \begin{verbatim}rails s\end{verbatim}
 \end{itemize}
 
 Les comptes créés sont les suivants (email password):
 
 \begin{itemize}
-\item admin: jean@paul.com tn\^VQBaw
-\item auteur: albert@haller.com 48n6dqBe
-\item auteur: jaime@heig.com \\gJWOp74
+\item admin: jean@paul.com \begin{verbatim}tn^VQBaw\end{verbatim}
+\item auteur: albert@haller.com \begin{verbatim}48n6dqBe\end{verbatim}
+\item auteur: jaime@heig.com \begin{verbatim}gJWOp74\end{verbatim}
 \end{itemize}
 
 \section{Librairies utilisées}
 
-Hors mis librairie Bootstrap, nous n'avons pas utilisé de librairie spécifique.
+Les librairies suivantes ont été réalisées:
+
+\begin{itemize}
+\item Bootstrap, pour les styles graphiques
+\item Devise, pour l'authentification
+\item CanCanCan, pour la gestion des droits d'accès
+\end{itemize}
+
+\section{Etat des lieux}
+
+Le projet est fonctionnel et utilisable. Il répond au cahier des charges.
 
 \section{Conclusion}
 
