@@ -40,8 +40,11 @@ class UsersController < ApplicationController
 	authorize! :manage, @user
 	
 	# user_params[:role] = "author"
-    @user = User.new(user_params)
-
+    #@user = User.new(user_params)
+	#st = ActiveRecord::Base.connection.raw_connection.prepare("INSERT INTO users (firstname, lastname, created_at, updated_at, email, medium_id, role) VALUES (?, ?, NOW(), NOW(), ?, ?, ?)")
+	#st.execute(user_params[:medium_id], user_params[:role], user_params[:email], user_params[:medium_id], user_params[:role])
+	#st.close
+	
     respond_to do |format|
       if @user.save
         format.html { redirect_to @user, notice: 'User was successfully created.' }
@@ -89,6 +92,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:firstname, :lastname, :email, :medium_id, :role)
+      params.require(:user).permit(:firstname, :lastname, :email, :medium_id, :role, :password)
     end
 end
