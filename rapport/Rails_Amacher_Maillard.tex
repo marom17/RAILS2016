@@ -339,6 +339,33 @@ La recherche des news se fait via Ajax. La recherche se fait par news, catégori
 
 Disponible en annexe.
 
+\section{Configuration CanCanCan}
+
+La restriction de l'exécution en fonction des rôles est implémentée comme suit dans le fichier ability.rb:
+\begin{lstlisting}
+class Ability
+  include CanCan::Ability
+
+  def initialize(user)
+    user ||= User.new
+	
+	if user.role == "admin"
+		can :manage, :all
+		can :reset_password, User
+	end
+	
+	if user.role == "author"
+		can :manage, Report
+		can :manage, Source
+	end
+	
+	can :read, Report
+	can :read, Category
+	can :read, Source
+  end
+end
+\end{lstlisting}
+
 \section{Implémentation Ajax}
 
 Notre fonctionnalité de recherche a été implémentée en utilisant les mécanismes de requête HTTP accessibles depuis Javascript (Ajax)
@@ -427,6 +454,13 @@ Les contrôleurs implémentés sont les suivants:
 \begin{figure}[h]
   \centering
   \includegraphics[width=14cm]{mvc}
+\end{figure}
+
+Les relations ORM propres à Rails implémentées sont les suivantes:
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=14cm]{relations}
 \end{figure}
 
 \section{Librairies utilisées}

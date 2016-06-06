@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  4 JUN 2016 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  6 JUN 2016 15:22
 entering extended mode
 **C:/Users/JJ/Documents/Cours/Rails/repo/RAILS2016/rapport/Rails_Amacher_Mailla
 rd.tex
@@ -1208,76 +1208,97 @@ File: img/heiglogo.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/heiglogo.jpg used on input line 313.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
  [5 <./img/mcd.png>]
-<img/recherche_ajax.png, id=28, 459.96844pt x 255.20343pt>
-File: img/recherche_ajax.png Graphic file (type png)
-
-<use img/recherche_ajax.png>
-Package pdftex.def Info: img/recherche_ajax.png used on input line 362.
-(pdftex.def)             Requested size: 284.52756pt x 157.87402pt.
-Package csquotes Info: Input encoding change on input line 367.
+Package csquotes Info: Input encoding change on input line 345.
 
 ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 368.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 350.
 
 
 ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 368.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 350.
 File: img/heiglogo.jpg Graphic file (type jpg)
 
 <use img/heiglogo.jpg>
-Package pdftex.def Info: img/heiglogo.jpg used on input line 372.
+Package pdftex.def Info: img/heiglogo.jpg used on input line 381.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
- [6 <./img/recherche_ajax.png>]
-Package csquotes Info: Input encoding change on input line 385.
+ [6]
+<img/recherche_ajax.png, id=34, 459.96844pt x 255.20343pt>
+File: img/recherche_ajax.png Graphic file (type png)
+
+<use img/recherche_ajax.png>
+Package pdftex.def Info: img/recherche_ajax.png used on input line 389.
+(pdftex.def)             Requested size: 284.52756pt x 157.87402pt.
+Package csquotes Info: Input encoding change on input line 394.
 
 ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 394.
+Package csquotes Info: Input encoding change on input line 412.
+
+("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 421.
 
 
 ("C:\Users\JJ\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 394.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 421.
 File: img/heiglogo.jpg Graphic file (type jpg)
 
 <use img/heiglogo.jpg>
-Package pdftex.def Info: img/heiglogo.jpg used on input line 418.
+Package pdftex.def Info: img/heiglogo.jpg used on input line 433.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
- [7] <img/mvc.png, id=41, 648.2619pt x 350.7504pt>
-File: img/mvc.png Graphic file (type png)
+ [7 <./img/recherche_ajax.png>]
+File: img/heiglogo.jpg Graphic file (type jpg)
+ <use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 445.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
 
-<use img/mvc.png>
-Package pdftex.def Info: img/mvc.png used on input line 429.
+[8] <img/mvc.png, id=44, 648.2619pt x 350.7504pt>
+File: img/mvc.png Graphic file (type png)
+ <use img/mvc.png>
+Package pdftex.def Info: img/mvc.png used on input line 456.
 (pdftex.def)             Requested size: 398.33858pt x 215.52557pt.
 
+<img/relations.png, id=45, 739.3221pt x 244.0317pt>
+File: img/relations.png Graphic file (type png)
+ <use img/relations.png>
+Package pdftex.def Info: img/relations.png used on input line 463.
+(pdftex.def)             Requested size: 398.33858pt x 131.48099pt.
+File: img/heiglogo.jpg Graphic file (type jpg)
 
-LaTeX Warning: Empty bibliography on input line 450.
+<use img/heiglogo.jpg>
+Package pdftex.def Info: img/heiglogo.jpg used on input line 483.
+(pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
+ [9 <./img/mvc.png> <./img/relations.png>]
+
+LaTeX Warning: Empty bibliography on input line 484.
 
 File: img/heiglogo.jpg Graphic file (type jpg)
 <use img/heiglogo.jpg>
-Package pdftex.def Info: img/heiglogo.jpg used on input line 461.
+Package pdftex.def Info: img/heiglogo.jpg used on input line 495.
 (pdftex.def)             Requested size: 113.81102pt x 35.50725pt.
- [8 <./img/mvc.png>] (Rails_Amacher_Maillard.aux)
+ [10] (Rails_Amacher_Maillard.aux)
 Package logreq Info: Writing requests to 'Rails_Amacher_Maillard.run.xml'.
 \openout1 = `Rails_Amacher_Maillard.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20151 strings out of 493634
- 369565 string characters out of 3136464
+ 20159 strings out of 493634
+ 369814 string characters out of 3136464
  757661 words of memory out of 3000000
- 23179 multiletter control sequences out of 15000+200000
+ 23184 multiletter control sequences out of 15000+200000
  7138 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 54i,16n,73p,1204b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,15n,73p,1204b,1740s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type
@@ -1290,9 +1311,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
 :/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Users/JJ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on Rails_Amacher_Maillard.pdf (8 pages, 809268 bytes).
+Output written on Rails_Amacher_Maillard.pdf (10 pages, 869028 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
