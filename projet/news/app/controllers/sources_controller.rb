@@ -34,22 +34,21 @@ class SourcesController < ApplicationController
   # POST /sources
   # POST /sources.json
   def create
-	#if source_params[:type] == "PhysicalSource"
-	#	@source = PhysicalSource.new(source_params)
-	#else
-	#	@source = LogicalSource.new(source_params)
-	#end
-  
     @source = Source.new(source_params)
 	authorize! :manage, @source
 
     respond_to do |format|
       if @source.save
-        format.html { redirect_to @source, notice: 'Source was successfully created.' }
-        format.json { render :show, status: :created, location: @source }
+		flash.now[:notice] = "La source a été créée."
+       # format.html { redirect_to @source, notice: 'La source a été créée.' }
+        #format.json { render :view, status: :created, location: @source }
+        format.js { render :create, status: :created, location: @source }
       else
-        format.html { render :new }
-        format.json { render json: @source.errors, status: :unprocessable_entity }
+		flash.now[:error] = "La source n'a pas pu être créée.<br />" + @source.errors.full_messages.join("<br />")
+        #format.html { render :new }
+        #format.json { render json: @source.errors, status: :unprocessable_entity }
+		#format.js { render :create, @source.errors, status: :unprocessable_entity }
+		format.js { render :create, status: :created, location: @source }
       end
     end
   end
@@ -61,7 +60,8 @@ class SourcesController < ApplicationController
 	
     respond_to do |format|
       if @source.update(source_params)
-        format.html { redirect_to @source, notice: 'Source was successfully updated.' }
+		flash.now[:notice] = "La source a été mise à jour."
+        format.html { redirect_to @source, notice: 'La source a été mise à jour.' }
         format.json { render :show, status: :ok, location: @source }
       else
         format.html { render :edit }
@@ -77,7 +77,7 @@ class SourcesController < ApplicationController
   
     @source.destroy
     respond_to do |format|
-      format.html { redirect_to sources_url, notice: 'Source was successfully destroyed.' }
+      format.html { redirect_to sources_url, notice: 'La source a été supprimée.' }
       format.json { head :no_content }
     end
   end
