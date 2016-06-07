@@ -15,6 +15,10 @@
  */
 *= require bootstrap.min
 
-.inlabel, .inlabel:visited  {
-	color: white;
+.label, .label-default, .inlabel, .inlabel:visited  {
+	color: white !important;
+}
+
+a[class*="label"] {
+	color: white !important;
 }
