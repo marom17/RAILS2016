@@ -44,14 +44,18 @@ class UsersController < ApplicationController
 	#st = ActiveRecord::Base.connection.raw_connection.prepare("INSERT INTO users (firstname, lastname, created_at, updated_at, email, medium_id, role) VALUES (?, ?, NOW(), NOW(), ?, ?, ?)")
 	#st.execute(user_params[:medium_id], user_params[:role], user_params[:email], user_params[:medium_id], user_params[:role])
 	#st.close
-	
+
     respond_to do |format|
       if @user.save
+		flash.now[:notice] = "L'utilisateur a été créé avec succès"
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
+		#format.js { render :create, status: :created, location: @user }
       else
+		flash.now[:error] = "L'utilisateur n'a pas pu être créé.<br />" + @user.errors.full_messages.join("<br />")
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
+		#format.js { render :create, status: :created, location: @user }
       end
     end
   end
@@ -63,11 +67,15 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
-        format.json { render :show, status: :ok, location: @user }
+		flash.now[:notice] = "L'utilisateur a été modifié créé avec succès"
+        #format.html { redirect_to @user, notice: 'User was successfully updated.' }
+        #format.json { render :show, status: :ok, location: @user }
+		format.js { render :create, status: :created, location: @user }
       else
-        format.html { render :edit }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+		flash.now[:error] = "L'utilisateur n'a pas pu être modifié.<br />" + @user.errors.full_messages.join("<br />")
+        #format.html { render :edit }
+        #format.json { render json: @user.errors, status: :unprocessable_entity }
+		format.js { render :create, status: :created, location: @user }
       end
     end
   end
