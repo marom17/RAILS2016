@@ -3,9 +3,10 @@
 <%= render 'form' %>
 
 <%= form_tag("/users/#{@user.id}/reset_password", method: "post") do %>
-  <%= submit_tag("Assigner un nouveau mot de passe") %>
+  <%= submit_tag "Assigner un nouveau mot de passe", :class => "btn btn-danger" %>
 <% end %>
 
+<br />
 
 <%= link_to 'Afficher', @user %> |
 <%= link_to 'Retour', users_path %>

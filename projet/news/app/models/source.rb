@@ -7,7 +7,7 @@ class Source < ActiveRecord::Base
 	validates :lastname, presence: true, if: :isPhysicalSource?
 	validates :lastname, length: { minimum: 3 }, if: :isPhysicalSource?
 	validates :name, presence: true, if: :isLogicalSource?
-	validates :name, length: { minimum: 3 }
+	validates :name, length: { minimum: 3 }, if: :isLogicalSource?
 	
 	def isPhysicalSource?
 		:tyype == "PhysicalSource"
