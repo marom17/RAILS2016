@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2016 at 11:06 AM
+-- Generation Time: Jun 11, 2016 at 10:19 AM
 -- Server version: 5.7.9
 -- PHP Version: 5.6.15
 
@@ -40,11 +40,11 @@ CREATE TABLE IF NOT EXISTS `categories` (
 --
 
 INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(113629430, 'Sport', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(281110143, 'Economie', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(298486374, 'Politique', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(980190962, 'HEIG', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(1018350795, 'Education', '2016-05-31 17:20:07', '2016-05-31 17:20:07');
+(113629430, 'Sport', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(281110143, 'Economie', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(298486374, 'Politique', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(980190962, 'HEIG', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(1018350795, 'Education', '2016-06-11 10:16:36', '2016-06-11 10:16:36');
 
 -- --------------------------------------------------------
 
@@ -87,8 +87,8 @@ CREATE TABLE IF NOT EXISTS `media` (
 --
 
 INSERT INTO `media` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'France Info', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(2, 'Suisse Info', '2016-05-31 17:20:07', '2016-05-31 17:20:07');
+(1, 'France Info', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(2, 'Suisse Info', '2016-06-11 10:16:36', '2016-06-11 10:16:36');
 
 -- --------------------------------------------------------
 
@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS `reports` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
-  `head` varchar(255) DEFAULT NULL,
+  `head` text,
   `text` text,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
@@ -113,8 +113,8 @@ CREATE TABLE IF NOT EXISTS `reports` (
 --
 
 INSERT INTO `reports` (`id`, `user_id`, `title`, `head`, `text`, `created_at`, `updated_at`) VALUES
-(298486374, 113629430, 'Une journée ensoleillée à Yverdon', 'Du jamais vu depuis plus de 6 mois', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(980190962, 298486374, 'Le récit d''un jour sans pain', 'Deux étudiants nous font le récit de leur formation', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.', '2016-05-31 17:20:07', '2016-05-31 17:20:07');
+(298486374, 113629430, 'Une journée ensoleillée à Yverdon', 'Du jamais vu depuis plus de 6 mois', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.', '2016-06-11 10:16:36', '2016-06-11 10:16:36'),
+(980190962, 298486374, 'Le récit d''un jour sans pain', 'Deux étudiants nous font le récit de leur formation', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget dui vitae massa rhoncus consectetur at nec justo.', '2016-06-11 10:16:36', '2016-06-11 10:16:36');
 
 -- --------------------------------------------------------
 
@@ -133,11 +133,10 @@ CREATE TABLE IF NOT EXISTS `reports_sources` (
 --
 
 INSERT INTO `reports_sources` (`report_id`, `source_id`) VALUES
+(980190962, 980190962),
+(980190962, 298486374),
 (298486374, 980190962),
-(298486374, 113629430),
-(980190962, 113629430),
-(980190962, 980190966),
-(980190962, 980190967);
+(298486374, 113629430);
 
 -- --------------------------------------------------------
 
@@ -183,22 +182,16 @@ CREATE TABLE IF NOT EXISTS `sources` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=980190969 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=980190963 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `sources`
 --
 
 INSERT INTO `sources` (`id`, `tyype`, `firstname`, `lastname`, `name`, `created_at`, `updated_at`) VALUES
-(113629430, 'PhysicalSource', 'Alexandre', 'Swonikki', NULL, '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(298486374, 'LogicalSource', NULL, NULL, 'Grands Levages SàRL', '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(980190962, 'PhysicalSource', 'Alexandra', 'Geux', NULL, '2016-05-31 17:20:07', '2016-05-31 17:20:07'),
-(980190963, 'PhysicalSource', '', '', '', '2016-06-02 16:57:35', '2016-06-02 16:57:35'),
-(980190964, 'PhysicalSource', '', '', '', '2016-06-02 16:57:37', '2016-06-02 16:57:37'),
-(980190965, 'PhysicalSource', 'LucLuc', '', '', '2016-06-02 17:05:36', '2016-06-02 17:05:36'),
-(980190966, 'PhysicalSource', 'LucLuc', '4356', '', '2016-06-02 17:06:18', '2016-06-02 17:06:18'),
-(980190967, 'PhysicalSource', 'LucLuc', '4356', '', '2016-06-02 17:06:19', '2016-06-02 17:06:19'),
-(980190968, 'PhysicalSource', 'LucLuc', '4356', '', '2016-06-02 17:06:27', '2016-06-02 17:06:27');
+(113629430, 'PhysicalSource', 'Alexandre', 'Swonikki', NULL, '2016-06-11 10:16:37', '2016-06-11 10:16:37'),
+(298486374, 'LogicalSource', NULL, NULL, 'Grands Levages SàRL', '2016-06-11 10:16:37', '2016-06-11 10:16:37'),
+(980190962, 'PhysicalSource', 'Alexandra', 'Geux', NULL, '2016-06-11 10:16:37', '2016-06-11 10:16:37');
 
 -- --------------------------------------------------------
 
@@ -228,16 +221,16 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_users_on_email` (`email`),
   UNIQUE KEY `index_users_on_reset_password_token` (`reset_password_token`)
-) ENGINE=InnoDB AUTO_INCREMENT=980190971 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=980190963 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `created_at`, `updated_at`, `email`, `encrypted_password`, `reset_password_token`, `reset_password_sent_at`, `remember_created_at`, `sign_in_count`, `current_sign_in_at`, `last_sign_in_at`, `current_sign_in_ip`, `last_sign_in_ip`, `medium_id`, `role`) VALUES
-(113629430, 'Jaime', 'HEIG', '2016-05-31 17:20:07', '2016-05-31 17:20:07', 'jaime@heig.com', '$2a$10$hmzrM6fvBrP1irK6lNuAV.hXWXLGyMWC9LgJvQTmLMh5Xb31Byyku', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, 2, 'author'),
-(298486374, 'Albert', 'Haller', '2016-05-31 17:20:07', '2016-06-02 15:58:30', 'albert@haller.com', '$2a$10$ebRmQ37KbWwkHmJr4Xpr/Ok7gTm.AkXFnpkg2LVloP4m4J5G2FD0i', NULL, NULL, NULL, 1, '2016-06-02 15:58:30', '2016-06-02 15:58:30', '127.0.0.1', '127.0.0.1', 1, 'author'),
-(980190962, 'Jean', 'Paul', '2016-05-31 17:20:07', '2016-06-04 10:49:45', 'jean@paul.com', '$2a$10$BhCA60p.TXSTN8SMTcWM2OR2RhbZkJ/nTgZlgBETKQB2lMHo8AQQG', NULL, NULL, NULL, 6, '2016-06-04 10:49:45', '2016-06-04 10:27:42', '127.0.0.1', '127.0.0.1', 1, 'admin');
+(113629430, 'Jaime', 'HEIG', '2016-06-11 10:16:37', '2016-06-11 10:16:37', 'jaime@heig.com', '$2a$10$hmzrM6fvBrP1irK6lNuAV.hXWXLGyMWC9LgJvQTmLMh5Xb31Byyku', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, 2, 'author'),
+(298486374, 'Albert', 'Haller', '2016-06-11 10:16:37', '2016-06-11 10:18:14', 'albert@haller.com', '$2a$10$ebRmQ37KbWwkHmJr4Xpr/Ok7gTm.AkXFnpkg2LVloP4m4J5G2FD0i', NULL, NULL, NULL, 1, '2016-06-11 10:18:14', '2016-06-11 10:18:14', '127.0.0.1', '127.0.0.1', 1, 'author'),
+(980190962, 'Jean', 'Paul', '2016-06-11 10:16:37', '2016-06-11 10:16:37', 'jean@paul.com', '$2a$10$BhCA60p.TXSTN8SMTcWM2OR2RhbZkJ/nTgZlgBETKQB2lMHo8AQQG', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, 1, 'admin');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9}Impl\IeC {\'e}mentation Ajax}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}D\IeC {\'e}ploiement}{7}
+\contentsline {section}{\numberline {10}D\IeC {\'e}ploiement}{8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11}MVC}{9}
 \defcounter {refsection}{0}\relax 
@@ -59,4 +59,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {13}Etat des lieux}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14}Conclusion}{9}
+\contentsline {section}{\numberline {14}Conclusion}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexes}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Manuel utilisateur}{12}

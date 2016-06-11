@@ -422,6 +422,7 @@ def search
 end
 \end{lstlisting}
 
+\newpage
 \section{Déploiement}
 
 La procédure suivante permet de déployer l'applicatif et de le tester. Nous utilisons les fixtures pour permettre de charger directement la base de données avec des données de test.
@@ -434,7 +435,9 @@ La procédure suivante permet de déployer l'applicatif et de le tester. Nous ut
 \item Exécuter: \begin{verbatim}rails s\end{verbatim}
 \end{itemize}
 
-Les comptes créés sont les suivants (email password):
+\par\null\par
+
+Les comptes créés par les fixtures sont les suivants (email password):
 
 \begin{itemize}
 \item admin: jean@paul.com \begin{verbatim}tn^VQBaw\end{verbatim}
@@ -473,23 +476,28 @@ Les librairies suivantes ont été réalisées:
 \item CanCanCan, pour la gestion des droits d'accès
 \end{itemize}
 
+\par\null\par
+
+Turbolinks a été désactivé, car le Javascript n'était pas correctement exécuté lorsque la page était chargée et il fallait rafraîchir la page pour que le Javascript soit enfin chargé.
+
 \section{Etat des lieux}
 
 Le projet est fonctionnel et utilisable. Il répond au cahier des charges.
 
+\newpage
 \section{Conclusion}
 
 Ce projet a été une bonne prise en main de RoR. Nous avons pu consulter ses forces mais également ses faiblesses. Ruby est agréable à utiliser car il permet la génération rapide de squelettes, mais cet avantage a ses limites et un inconvénient majeur est de devoir revoir chaque interface pour y ajouter les relations manquantes. Au niveau organisation, il n'a pas toujours été facile de trouver le temps de travailler sur le projet, compte tenu de notre charge de travail tout au long de ce semestre. En bref, ce projet a été fort utile pour appuyer et mettre en oeuvre ce que nous avons appris durant le cours.
 
 \printbibliography
 
-%\newpage
-%\begin{appendices}
+\newpage
+\begin{appendices}
 
-%\newpage
-%\section{Annexe 1}
+\newpage
+\section{Manuel utilisateur}
 %\newpage
 %\section{Annexe 2}
-%\end{appendices}
+\end{appendices}
 
 \end{document}
