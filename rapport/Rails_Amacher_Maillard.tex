@@ -175,7 +175,7 @@
 
 \section{Introduction}
 
-Ce projet a pour but de réaliser une plate-forme permettant d'une part la rédaction de news et d'autre part leur consultation. Les rédacteurs écrivent et modifient des news, en y liant catégories (par ex: politique) et des sources (par ex: Paul Dupont). Chaque rédacteur travaille pour un média (par ex: France Info)
+Ce projet a pour but de réaliser une plate-forme permettant d'une part la rédaction de news et d'autre part leur consultation. Les rédacteurs écrivent et modifient des news, en y liant des catégories (par ex: politique) et des sources (par ex: Paul Dupont). Chaque rédacteur travaille pour un média (par ex: France Info)
 
 \section{Contraintes}
 
@@ -187,7 +187,7 @@ Les contraintes du projet sont les suivantes
 
 \section{Cas d'utilisation}
 
-Ce chapitre décrit les attentes et les fonctionnalités fournies pour chaque type de client de l’applicatif.
+Ce chapitre décrit les attentes et les fonctionnalités fournies pour chaque type de client de l’application.
 
 \includegraphics[width=\textwidth]{use_cases}
 
@@ -216,19 +216,19 @@ Il est possible de rechercher une news par son titre, sa catégorie ou sa source
 
 \subsubsection{Ajoutent une source à leur news}
 
-Une news ayant au minimum une source, le rédacteur de la news peut en créer et en lier. Une news consiste en un titre, un chapeau ainsi qu'un contenu. 
+Une news ayant au minimum une source, le rédacteur de la news peut en créer et en lier. Une news est consistuée d'un titre, d'un chapeau ainsi que d'un contenu. 
 
-\subsubsection{Ajoute une catégorie à leur news}
+\subsubsection{Ajoutent une catégorie à leur news}
 
 Une catégorie pouvant contenir plusieurs news (par exemple: politique), un rédacteur peut spécifier les catégories concernées par sa news.
 
-\subsubsection{Rédige une news}
+\subsubsection{Rédigent une news}
 
-Le rédacteur peut écrire une news. Une news comprend un titre, un chapeau (extrait en gras), un contenu ainsi qu'une liste de sources et est contenue dans au moins une catégorie. U
+Le rédacteur peut écrire une news. Une news comprend un titre, un chapeau (extrait en gras), un contenu ainsi qu'une liste de sources et est contenue dans au moins une catégorie.
 
 Idéalement, les sources devraient pouvoir être créées `sur le vif` lors de la rédaction d'une news.
 
-\subsubsection{Modifie une news}
+\subsubsection{Modifient une news}
 
 Le rédacteur peut modifier une de ses news, cela inclut:
 \begin{itemize}
@@ -247,11 +247,11 @@ Un administrateur crée, modifie et supprime les comptes des utilisateurs du sys
 
 \subsubsection{Gère les catégories}
 
-Un administrateur gère les catégories : il peut en ajouter, modifier et supprimer.
+Un administrateur gère les catégories : il peut en ajouter, en modifier et en supprimer.
 
 \subsubsection{Gère les médias}
 
-Un administrateur gère les médias : il peut en ajouter, modifier et supprimer. Chaque rédacteur est lié à un média et l'administrateur est le seul à pouvoir modifier à quel média le rédacteur est rattaché.
+Un administrateur gère les médias : il peut en ajouter, en modifier et en supprimer. Chaque rédacteur est lié à un média et l'administrateur est le seul à pouvoir modifier le média au quel le rédacteur est rattaché.
 
 \newpage
 \section{Base de données}
@@ -425,7 +425,7 @@ end
 \newpage
 \section{Déploiement}
 
-La procédure suivante permet de déployer l'applicatif et de le tester. Nous utilisons les fixtures pour permettre de charger directement la base de données avec des données de test.
+La procédure suivante permet de déployer l'application et de la tester. Nous utilisons les fixtures pour permettre de charger directement la base de données avec des données de test.
 
 \begin{itemize}
 \item Créer la base de données nommée "news"
