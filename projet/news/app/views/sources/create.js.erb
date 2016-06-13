@@ -1,1 +1,4 @@
 $("#flash").html('<%= j render partial: "shared/notice_banner", :locals => {:notice => flash[:notice], :error => flash[:error]} %>');
+
+if (add_source_to_report)
+	add_source_to_report(null, <%=  @source.id %>, '<%=  @source.firstname %> <%=  @source.lastname %> <%=  @source.name %>');

@@ -21,11 +21,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.1}Ajoutent une source \IeC {\`a} leur news}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Ajoute une cat\IeC {\'e}gorie \IeC {\`a} leur news}{4}
+\contentsline {subsubsection}{\numberline {3.2.2}Ajoutent une cat\IeC {\'e}gorie \IeC {\`a} leur news}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}R\IeC {\'e}dige une news}{4}
+\contentsline {subsubsection}{\numberline {3.2.3}R\IeC {\'e}digent une news}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4}Modifie une news}{4}
+\contentsline {subsubsection}{\numberline {3.2.4}Modifient une news}{4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Un administrateur}{4}
 \defcounter {refsection}{0}\relax 

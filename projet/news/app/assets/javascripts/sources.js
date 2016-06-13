@@ -8,7 +8,9 @@ $(function() {
 
 function add_source_to_report(trigger, id, name) {
 	$("#source_list").append('<li><div class="checkbox"><label><input type="checkbox" name="report[sources][]" value="' + id + '" checked="checked" onchange="remove_source_from_report(this)" />' + name + '</div></label></li>');
-	trigger.closest('li').remove();
+	
+	if (trigger)
+		trigger.closest('li').remove();
 }
 
 function remove_source_from_report(trigger) {
