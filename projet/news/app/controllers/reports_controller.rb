@@ -17,7 +17,7 @@ class ReportsController < ApplicationController
   # GET /reports
   # GET /reports.json
   def index
-    @reports = Report.all
+    @reports = Report.order(updated_at: :desc).limit(30)
   end
 
   # GET /reports/1
